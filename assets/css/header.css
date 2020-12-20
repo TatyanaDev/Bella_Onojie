@@ -1,0 +1,22 @@
+.cap {
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 47px 27px 90px;
+}
+.btn {
+  background: url(../icons/btn.png);
+  height: 16px;
+  width: 20px;
+  border: 0;
+}
+@media (max-width: 576px) {
+  .cap {
+    height: 51px;
+    padding: 17px 23px 44px 25px;
+  }
+  .logo {
+    width: 104px;
+  }
+}
