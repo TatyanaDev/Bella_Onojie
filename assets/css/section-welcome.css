@@ -5,10 +5,36 @@
   box-sizing: border-box;
   color: white;
   text-align: center;
+  padding: 73px 251.5px 146px 251.5px;
   height: 619px;
   background-color: #221c19;
   background-image: url("../img/welcome.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+.string {
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+.heading {
+  margin-bottom: 27px;
+}
+.paragraph {
+  margin-bottom: 54px;
+}
+.border-padding-background-color {
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+}
+.btn-welcome {
+  text-decoration: none;
+  color: white;
+  padding: 16px 58.5px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+.btn-welcome:hover {
+  background-color: #f84a0c;
 }
