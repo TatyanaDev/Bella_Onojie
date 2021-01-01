@@ -15,7 +15,7 @@
   width: 20px;
   border: 0;
 }
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .cap {
     height: 51px;
     padding: 17px 23px 44px 25px;
