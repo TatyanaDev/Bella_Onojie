@@ -17,6 +17,10 @@
   line-height: 36px;
   letter-spacing: 0.1px;
   padding-bottom: 17px;
+  min-height: 36px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .heading {
   max-width: 937px;
@@ -27,6 +31,11 @@
   line-height: 80px;
   letter-spacing: 0.2px;
   padding-bottom: 27px;
+  min-height: 160px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .paragraph {
   font-family: "montserrat";
@@ -35,6 +44,10 @@
   line-height: 38px;
   letter-spacing: 0.2px;
   padding-bottom: 54px;
+  min-height: 38px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .customization-btn {
   border: 0;
@@ -56,6 +69,7 @@
   margin-left: 31px;
 }
 .btn-welcome:hover {
+  transition: 1s;
   background-color: #f84a0c;
 }
 .img-welcome {
