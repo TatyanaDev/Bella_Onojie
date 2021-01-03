@@ -1,5 +1,6 @@
 .first-content {
   padding: 604px 161px 0px 225px;
+  overflow-x: hidden;
 }
 .header-first-content {
   text-align: center;
@@ -14,13 +15,21 @@
   border-top: 3px solid #e4e4e4;
   max-width: 1029px;
   margin: 0 auto;
-  padding-top:72px;
+  padding-top: 72px;
+  min-height: 36px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
-
 .content-first-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.img-section-first-content {
+  min-height: 656px;
+  max-height: 656px;
+  max-width: 493px;
 }
 .max-width {
   max-width: 561px;
@@ -33,6 +42,10 @@
   letter-spacing: 0.1px;
   text-decoration: none;
   color: #fa4a0c;
+  min-height: 36px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 .sub-header-first-content {
   font-family: "montserrat";
@@ -43,6 +56,11 @@
   color: #252b42;
   padding-top: 17px;
   padding-bottom: 27px;
+  min-height: 114px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .sub-content-first-section {
   font-family: "montserrat";
@@ -51,4 +69,9 @@
   line-height: 38px;
   letter-spacing: 0.2px;
   color: #737373;
+  min-height: 76px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }

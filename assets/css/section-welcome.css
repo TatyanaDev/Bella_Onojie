@@ -34,7 +34,7 @@
   padding-bottom: 27px;
   min-height: 160px;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -104,6 +104,10 @@
     line-height: 42px;
     min-height: 128px;
     color: #252b42;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .paragraph {
     padding-bottom: 50px;
