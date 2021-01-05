@@ -126,6 +126,6 @@
 }
 @media screen and (max-width: 576px) {
   .first-content {
-    padding: 216px 0px 0px;
+    padding-top: 216px;
   }
 }

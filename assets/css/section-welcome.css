@@ -84,7 +84,6 @@
 @media screen and (max-width: 1200px) {
   .content-welcome {
     padding: 50px 11.5px 250.5px;
-    
   }
 }
 @media screen and (max-width: 768px) {
@@ -129,5 +128,12 @@
     min-height: 492px;
     max-height: 492px;
     max-width: 422px;
+  }
+}
+@media (max-width: 415px) {
+  .img-welcome {
+    min-height: 350px;
+    max-height: 350px;
+    max-width: 320px;
   }
 }
