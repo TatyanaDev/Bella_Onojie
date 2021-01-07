@@ -1,2 +1,68 @@
 .download-content {
+  box-sizing: border-box;
+  text-align: center;
+  padding: 146px 300px 131px;
+  height: 509px;
+  background-color: #252b42;
+  background-image: url("../img/download.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-download {
+  color: #ffffff;
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding-bottom: 20px;
+  min-height: 57px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.content-section-download {
+  color: #ffffff;
+  font-family: "montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  padding-bottom: 60px;
+  min-height: 38px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.content-mobile-version {
+  display: none;
+}
+.decoration-btn {
+  display: inline-block;
+  border: 0;
+  padding: 0;
+  background-color: inherit;
+  margin-top: 15px;
+}
+.btn-download {
+  font-family: "montserrat";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 18px 31px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  margin-left: 15px;
+}
+.btn-download:hover {
+  transition-duration: 0.4s;
+  background-color: #f84a0c;
+}
+.display {
+  display: none;
 }
