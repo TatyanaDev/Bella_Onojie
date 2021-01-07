@@ -99,7 +99,6 @@
     color: #737373;
   }
   .heading {
-    max-width: 391px;
     font-size: 36px;
     line-height: 42px;
     min-height: 128px;
@@ -117,11 +116,11 @@
     color: #f84a0c;
     border: 1px solid #f84a0c;
   }
-  .box-shadow {
-    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
-  }
   .btn-welcome:hover {
     color: #ffffff;
+  }
+  .box-shadow {
+    box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
   }
   .img-welcome {
     padding-bottom: 116px;
