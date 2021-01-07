@@ -45,6 +45,7 @@
   border: 0;
   padding: 0;
   background-color: inherit;
+  margin-top: 15px;
 }
 .decoration-btn + .decoration-btn {
   margin-left: 15px;
