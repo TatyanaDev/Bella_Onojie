@@ -1,0 +1,43 @@
+.content-footer {
+  height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 160px 15px 186px;
+}
+.logo-footer {
+  min-width: 246px;
+  max-width: 246px;
+  max-height: 102px;
+}
+.nav-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 171px;
+}
+.size {
+  max-height: 41px;
+  max-width: 41px;
+}
+.icon-mob-version {
+  display: none;
+}
+.our-link {
+  font-family: "roboto";
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  text-decoration: none;
+  color: #5c5c5c;
+  min-height: 18px;
+  min-width: 190px;
+  max-width: 190px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.link-mobile-version {
+  display: none;
+}
