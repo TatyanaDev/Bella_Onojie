@@ -1,11 +1,11 @@
-.cap {
-  height: 102px;
+.content-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 26px 47px 27px 90px;
+  height: 102px;
 }
-.logo {
+.logo-header {
   max-width: 206px;
   max-height: 102px;
 }
@@ -16,11 +16,11 @@
   border: 0;
 }
 @media screen and (max-width: 768px) {
-  .cap {
-    height: 51px;
+  .content-header {
     padding: 17px 23px 44px 25px;
+    height: 51px;
   }
-  .logo {
+  .logo-header {
     max-width: 104px;
     max-height: 52px;
   }

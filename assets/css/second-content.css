@@ -1,3 +1,7 @@
+:root {
+  --main-font-second: "montserrat";
+  --font-weight-second: bold;
+}
 .second-content {
   padding-left: 254px;
   overflow-x: hidden;
@@ -12,8 +16,8 @@
 }
 .link-second-content,
 .link-second-content-mobile-version {
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-second);
+  font-weight: var(--font-weight-second);
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
@@ -24,12 +28,13 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.link-second-content-mobile-version {
+.link-second-content-mobile-version,
+.img-mobile-version2 {
   display: none;
 }
 .header-second-content {
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-second);
+  font-weight: var(--font-weight-second);
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
@@ -43,7 +48,7 @@
   overflow: hidden;
 }
 .sub-content-second-section {
-  font-family: "montserrat";
+  font-family: var(--main-font-second);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
@@ -59,9 +64,6 @@
   min-height: 807px;
   max-height: 807px;
   max-width: 501px;
-}
-.img-mobile-version2 {
-  display: none;
 }
 @media screen and (max-width: 1200px) {
   .second-content {
@@ -95,9 +97,9 @@
     display: block;
   }
   .header-second-content {
+    min-height: 171px;
     padding-top: 40px;
     padding-bottom: 50px;
-    min-height: 171px;
   }
   .sub-content-second-section {
     min-height: 152px;

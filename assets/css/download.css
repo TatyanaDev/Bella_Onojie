@@ -1,3 +1,9 @@
+:root {
+  --main-font-download: "montserrat";
+  --font-weight-download: bold;
+  --first-color-download: #ffffff;
+  --bg-color-download: #f84a0c;
+}
 .download-content {
   box-sizing: border-box;
   text-align: center;
@@ -10,14 +16,14 @@
   background-position: center;
 }
 .header-download {
-  color: #ffffff;
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-download);
+  font-weight: var(--font-weight-download);
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  padding-bottom: 20px;
+  color: var(--first-color-download);
   min-height: 57px;
+  padding-bottom: 20px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -25,14 +31,14 @@
 }
 .content-section-download,
 .content-mobile-version {
-  color: #ffffff;
-  font-family: "montserrat";
+  font-family: var(--main-font-download);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
   letter-spacing: 0.2px;
-  padding-bottom: 60px;
+  color: var(--first-color-download);
   min-height: 38px;
+  padding-bottom: 60px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -42,30 +48,30 @@
 }
 .decoration-btn {
   display: inline-block;
-  border: 0;
-  padding: 0;
   background-color: inherit;
   margin-top: 15px;
+  border: 0;
+  padding: 0;
 }
 .decoration-btn + .decoration-btn {
   margin-left: 15px;
 }
 .btn-download,
 .btn-download-mob-version {
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-download);
+  font-weight: var(--font-weight-download);
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.2px;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--first-color-download);
   padding: 18px 31px;
   border-radius: 10px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--first-color-download);
 }
 .btn-download:hover {
   transition-duration: 0.4s;
-  background-color: #f84a0c;
+  background-color: var(--bg-color-download);
 }
 .hide {
   display: none;
@@ -83,7 +89,8 @@
   .header-download {
     min-height: 114px;
   }
-  .content-section-download {
+  .content-section-download,
+  .display {
     display: none;
   }
   .content-mobile-version {
@@ -101,10 +108,7 @@
     padding: 18px 20px;
   }
   .btn-download-mob-version:hover {
-    background-color: #f84a0c;
-  }
-  .display {
-    display: none;
+    background-color: var(--bg-color-download);
   }
   .hide {
     display: inline-block;

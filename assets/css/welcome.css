@@ -1,3 +1,11 @@
+:root {
+  --main-font-welcome: "montserrat";
+  --font-weight-welcome: bold;
+  --first-color-welcome: #f84a0c;
+  --second-color-welcome: #ffffff;
+  --third-color-welcome: #f7f7f7;
+  --fourth-color-welcome: #737373;
+}
 .content-welcome {
   box-sizing: border-box;
   text-align: center;
@@ -10,77 +18,77 @@
   background-position: center;
 }
 .link-welcome {
-  color: #f7f7f7;
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-welcome);
+  font-weight: var(--font-weight-welcome);
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
   min-height: 36px;
+  color: var(--third-color-welcome);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   text-decoration: none;
 }
 .header-welcome {
-  color: #ffffff;
-  max-width: 937px;
-  margin: 0 auto;
   font-family: "poppins";
-  font-weight: bold;
+  font-weight: var(--font-weight-welcome);
   font-size: 58px;
   line-height: 80px;
   letter-spacing: 0.2px;
-  padding-top:17px;
+  margin: 0 auto;
+  color: var(--second-color-welcome);
+  padding-top: 17px;
   padding-bottom: 27px;
   min-height: 160px;
+  max-width: 937px;
   display: -webkit-box;
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.paragraph {
-  color: #f7f7f7;
-  font-family: "montserrat";
+.sub-content-welcome {
+  font-family: var(--main-font-welcome);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
   letter-spacing: 0.2px;
-  padding-bottom: 54px;
+  color: var(--third-color-welcome);
   min-height: 38px;
+  padding-bottom: 54px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 .customization-btn {
   display: inline-block;
+  background-color: inherit;
   border: 0;
   padding: 0;
-  background-color: inherit;
   margin-top: 15px;
 }
 .btn-welcome {
-  font-family: "montserrat";
-  font-weight: bold;
+  font-family: var(--main-font-welcome);
+  font-weight: var(--font-weight-welcome);
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--second-color-welcome);
   padding: 18.5px 61.5px;
   border-radius: 30px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--second-color-welcome);
   margin-left: 31px;
 }
 .btn-welcome:hover {
   transition-duration: 0.4s;
-  background-color: #f84a0c;
+  background-color: var(--first-color-welcome);
 }
 .img-welcome {
-  padding-bottom: 129px;
   min-height: 640px;
   max-height: 640px;
   max-width: 548px;
+  padding-bottom: 129px;
 }
 @media screen and (max-width: 1200px) {
   .content-welcome {
@@ -89,15 +97,15 @@
 }
 @media screen and (max-width: 768px) {
   .content-welcome {
-    height: 778px;
-    background-color: #ffffff;
     background-image: none;
+    background-color: var(--second-color-welcome);
+    height: 778px;
   }
   .link-welcome {
     font-size: 16px;
     line-height: 24px;
     min-height: 24px;
-    color: #737373;
+    color: var(--fourth-color-welcome);
   }
   .header-welcome {
     font-size: 36px;
@@ -105,29 +113,29 @@
     min-height: 128px;
     color: #252b42;
   }
-  .paragraph {
-    padding-bottom: 50px;
+  .sub-content-welcome {
     min-height: 76px;
-    color: #737373;
+    color: var(--fourth-color-welcome);
+    padding-bottom: 50px;
   }
   .customization-btn {
     margin-bottom: 35px;
   }
   .btn-welcome {
-    color: #f84a0c;
-    border: 1px solid #f84a0c;
+    color: var(--first-color-welcome);
+    border: 1px solid var(--first-color-welcome);
   }
   .btn-welcome:hover {
-    color: #ffffff;
+    color: var(--second-color-welcome);
   }
   .box-shadow {
     box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.07);
   }
   .img-welcome {
-    padding-bottom: 116px;
     min-height: 492px;
     max-height: 492px;
     max-width: 422px;
+    padding-bottom: 116px;
   }
 }
 @media (max-width: 415px) {
