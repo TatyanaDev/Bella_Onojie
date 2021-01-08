@@ -23,7 +23,8 @@
 .icon-mob-version {
   display: none;
 }
-.our-link {
+.our-link,
+.our-mob-link {
   font-family: "roboto";
   font-weight: bold;
   font-size: 12px;
@@ -38,6 +39,34 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.link-mobile-version {
+.our-mob-link {
   display: none;
+}
+@media screen and (max-width: 992px) {
+  .logo-footer {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-footer {
+    flex-direction: column;
+    height: 67px;
+    padding: 60px 75px 45px;
+  }
+  .nav-icon {
+    padding-bottom: 8px;
+  }
+  .icon-desktop-version {
+    display: none;
+  }
+  .icon-mob-version {
+    display: block;
+  }
+  .our-link {
+    display: none;
+  }
+  .our-mob-link {
+    display: block;
+    max-width: 214px;
+  }
 }
