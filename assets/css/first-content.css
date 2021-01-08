@@ -36,9 +36,6 @@
   max-height: 656px;
   max-width: 493px;
 }
-.img-mobile-version1 {
-  display: none;
-}
 .max-width-padding-first-content {
   max-width: 561px;
 }
@@ -106,11 +103,7 @@
     flex-direction: column-reverse;
     text-align: center;
   }
-  .img-section-first-content {
-    display: none;
-  }
   .img-mobile-version1 {
-    display: block;
     min-height: 581px;
     max-height: 581px;
     max-width: 414px;

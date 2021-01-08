@@ -28,8 +28,7 @@
   white-space: nowrap;
   overflow: hidden;
 }
-.link-second-content-mobile-version,
-.img-mobile-version2 {
+.link-second-content-mobile-version {
   display: none;
 }
 .header-second-content {
@@ -69,11 +68,7 @@
   .second-content {
     padding-left: 30px;
   }
-  .img-section-second-content {
-    display: none;
-  }
   .img-mobile-version2 {
-    display: block;
     min-height: 581px;
     max-height: 581px;
     max-width: 414px;
