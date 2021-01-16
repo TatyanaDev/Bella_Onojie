@@ -1,7 +1,3 @@
-:root {
-  --main-font-second: "montserrat";
-  --font-weight-second: bold;
-}
 .second-content {
   padding-left: 254px;
   overflow-x: hidden;
@@ -16,8 +12,8 @@
 }
 .link-second-content,
 .link-second-content-mobile-version {
-  font-family: var(--main-font-second);
-  font-weight: var(--font-weight-second);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
@@ -32,8 +28,8 @@
   display: none;
 }
 .header-second-content {
-  font-family: var(--main-font-second);
-  font-weight: var(--font-weight-second);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
@@ -47,7 +43,7 @@
   overflow: hidden;
 }
 .sub-content-second-section {
-  font-family: var(--main-font-second);
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;

@@ -1,9 +1,3 @@
-:root {
-  --main-font-download: "montserrat";
-  --font-weight-download: bold;
-  --first-color-download: #ffffff;
-  --bg-color-download: #f84a0c;
-}
 .download-content {
   box-sizing: border-box;
   text-align: center;
@@ -16,12 +10,12 @@
   background-position: center;
 }
 .header-download {
-  font-family: var(--main-font-download);
-  font-weight: var(--font-weight-download);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
-  color: var(--first-color-download);
+  color: var(--second-color);
   min-height: 57px;
   padding-bottom: 20px;
   display: -webkit-box;
@@ -31,12 +25,12 @@
 }
 .content-section-download,
 .content-mobile-version {
-  font-family: var(--main-font-download);
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
   letter-spacing: 0.2px;
-  color: var(--first-color-download);
+  color: var(--second-color);
   min-height: 38px;
   padding-bottom: 60px;
   display: -webkit-box;
@@ -58,20 +52,20 @@
 }
 .btn-download,
 .btn-download-mob-version {
-  font-family: var(--main-font-download);
-  font-weight: var(--font-weight-download);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.2px;
   text-decoration: none;
-  color: var(--first-color-download);
+  color: var(--second-color);
   padding: 18px 31px;
   border-radius: 10px;
-  border: 1px solid var(--first-color-download);
+  border: 1px solid var(--second-color);
 }
 .btn-download:hover {
   transition-duration: 0.4s;
-  background-color: var(--bg-color-download);
+  background-color: var(--first-color);
 }
 .hide {
   display: none;
@@ -108,7 +102,7 @@
     padding: 18px 20px;
   }
   .btn-download-mob-version:hover {
-    background-color: var(--bg-color-download);
+    background-color: var(--first-color);
   }
   .hide {
     display: inline-block;

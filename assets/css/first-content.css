@@ -1,8 +1,3 @@
-:root {
-  --main-font-first: "montserrat";
-  --font-weight-first: bold;
-  --color-border-first: #e4e4e4;
-}
 .first-content {
   padding: 604px 161px 0px 245px;
   overflow-x: hidden;
@@ -40,8 +35,8 @@
   max-width: 561px;
 }
 .link-first-content {
-  font-family: var(--main-font-first);
-  font-weight: var(--font-weight-first);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 24px;
   line-height: 36px;
   letter-spacing: 0.1px;
@@ -53,8 +48,8 @@
   overflow: hidden;
 }
 .sub-header-first-content {
-  font-family: var(--main-font-first);
-  font-weight: var(--font-weight-first);
+  font-family: var(--main-font);
+  font-weight: var(--font-weight);
   font-size: 40px;
   line-height: 57px;
   letter-spacing: 0.2px;
@@ -68,7 +63,7 @@
   overflow: hidden;
 }
 .sub-content-first-section {
-  font-family: var(--main-font-first);
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
@@ -90,7 +85,7 @@
     padding: 116px 0px 0px;
   }
   .header-first-content {
-    font-family: var(--main-font-first);
+    font-family: var(--main-font);
     font-size: 24px;
     padding-bottom: 49px;
     margin-bottom: 65px;

@@ -5,3 +5,13 @@
 @import "./second-content.css";
 @import "./download.css";
 @import "./footer.css";
+
+:root {
+  --main-font: "montserrat";
+  --font-weight: bold;
+  --first-color: #f84a0c;
+  --second-color: #ffffff;
+  --third-color: #f7f7f7;
+  --fourth-color: #737373;
+  --color-border-first: #e4e4e4;
+}
