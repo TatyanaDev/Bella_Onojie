@@ -77,7 +77,7 @@
 }
 @media screen and (max-width: 768px) {
   .download-content {
-    height: 564px;
+    min-height: 564px;
     background-image: none;
   }
   .header-download {

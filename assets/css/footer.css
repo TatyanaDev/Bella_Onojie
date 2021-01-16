@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 102px;
+  min-height: 102px;
   padding: 53px 160px 15px 186px;
 }
 .logo-footer {
@@ -14,7 +14,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 171px;
+  min-width: 171px;
 }
 .size {
   max-height: 41px;
@@ -49,7 +49,7 @@
   .content-footer {
     flex-direction: column;
     padding: 60px 75px 45px;
-    height: 67px;
+    min-height: 67px;
   }
   .nav-icon {
     padding-bottom: 8px;

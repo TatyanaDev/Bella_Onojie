@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 26px 47px 27px 90px;
-  height: 102px;
+  min-height: 102px;
 }
 .logo-header {
   max-width: 206px;
@@ -11,14 +11,14 @@
 }
 .btn-header {
   background: url(../icons/btn.png);
-  height: 16px;
-  width: 20px;
+  min-height: 16px;
+  min-width: 20px;
   border: 0;
 }
 @media screen and (max-width: 768px) {
   .content-header {
     padding: 17px 23px 44px 25px;
-    height: 51px;
+    min-height: 51px;
   }
   .logo-header {
     max-width: 104px;

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   text-align: center;
   padding: 73px 251.5px 146px;
-  height: 619px;
+  max-height: 619px;
   background-color: #221c19;
   background-image: url("../img/welcome.png");
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@
   .content-welcome {
     background-image: none;
     background-color: var(--second-color);
-    height: 778px;
+    min-height: 778px;
   }
   .link-welcome {
     font-size: 16px;
