@@ -1,5 +1,7 @@
 .first-content {
-  padding: 604px 161px 0px 245px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 475px 161px 0px 245px;
   overflow-x: hidden;
 }
 .header-first-content {
@@ -17,14 +19,6 @@
   margin: 0 auto;
   padding-top: 72px;
   min-height: 36px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.content-first-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 .img-section-first-content {
   min-height: 656px;
@@ -43,9 +37,6 @@
   text-decoration: none;
   color: #fa4a0c;
   min-height: 36px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .sub-header-first-content {
   font-family: var(--main-font);
@@ -57,10 +48,6 @@
   padding-top: 17px;
   padding-bottom: 27px;
   min-height: 114px;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 .sub-content-first-section {
   font-family: var(--main-font);
@@ -70,19 +57,15 @@
   letter-spacing: 0.2px;
   color: #737373;
   min-height: 76px;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 @media screen and (max-width: 1200px) {
   .first-content {
-    padding: 604px 30px 0px;
+    padding: 475px 30px 0px;
   }
 }
 @media screen and (max-width: 768px) {
   .first-content {
-    padding: 116px 0px 0px;
+    padding: 0px;
   }
   .header-first-content {
     font-family: var(--main-font);
@@ -92,7 +75,7 @@
     color: #000000;
     border-top: none;
     border-bottom: 3px solid var(--color-border-first);
-    padding-top: 116px;
+    padding-top: 90px;
   }
   .content-first-section {
     flex-direction: column-reverse;
@@ -118,6 +101,6 @@
 }
 @media screen and (max-width: 576px) {
   .first-content {
-    padding-top: 216px;
+    padding-top: 116px;
   }
 }

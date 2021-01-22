@@ -1,7 +1,4 @@
 .content-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   min-height: 102px;
   padding: 53px 160px 15px 186px;
 }
@@ -11,9 +8,6 @@
   max-height: 102px;
 }
 .nav-icon {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   min-width: 171px;
 }
 .size {
@@ -36,9 +30,6 @@
   min-height: 18px;
   min-width: 190px;
   max-width: 190px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 @media screen and (max-width: 992px) {
   .logo-footer {

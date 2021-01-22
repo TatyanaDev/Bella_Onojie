@@ -1,11 +1,11 @@
 .second-content {
+  max-width: 1440px;
+  margin: 0 auto;
   padding-left: 254px;
   overflow-x: hidden;
 }
 .content-second-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: row-reverse;
 }
 .max-width-padding-second-content {
   max-width: 480px;
@@ -20,9 +20,6 @@
   text-decoration: none;
   color: #fa4a0c;
   min-height: 36px;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .link-second-content-mobile-version {
   display: none;
@@ -37,10 +34,6 @@
   padding-top: 17px;
   padding-bottom: 27px;
   min-height: 114px;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 .sub-content-second-section {
   font-family: var(--main-font);
@@ -50,10 +43,6 @@
   letter-spacing: 0.2px;
   color: #737373;
   min-height: 76px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 .img-section-second-content {
   min-height: 807px;

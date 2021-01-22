@@ -1,0 +1,29 @@
+.line-clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  -webkit-line-clamp: 3;
+}
+.line-clamp-4 {
+  -webkit-line-clamp: 4;
+}
+.line-clamp-5 {
+  -webkit-line-clamp: 5;
+}
+.hidden {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

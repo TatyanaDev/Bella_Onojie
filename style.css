@@ -5,6 +5,7 @@
 @import "./assets/css/second-content.css";
 @import "./assets/css/download.css";
 @import "./assets/css/footer.css";
+@import "./assets/css/helpers.css";
 
 :root {
   --main-font: "montserrat";
@@ -14,4 +15,7 @@
   --third-color: #f7f7f7;
   --fourth-color: #737373;
   --color-border-first: #e4e4e4;
+}
+* {
+  box-sizing: border-box;
 }

@@ -1,7 +1,4 @@
 .content-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   padding: 26px 47px 27px 90px;
   min-height: 102px;
 }

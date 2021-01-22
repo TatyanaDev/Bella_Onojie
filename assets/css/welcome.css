@@ -1,13 +1,9 @@
 .content-welcome {
-  box-sizing: border-box;
   text-align: center;
   padding: 73px 251.5px 146px;
   max-height: 619px;
   background-color: #221c19;
   background-image: url("../img/welcome.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .link-welcome {
   font-family: var(--main-font);
@@ -17,9 +13,6 @@
   letter-spacing: 0.1px;
   min-height: 36px;
   color: var(--third-color);
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   text-decoration: none;
 }
 .header-welcome {
@@ -34,10 +27,6 @@
   padding-bottom: 27px;
   min-height: 160px;
   max-width: 937px;
-  display: -webkit-box;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }
 .sub-content-welcome {
   font-family: var(--main-font);
@@ -48,9 +37,6 @@
   color: var(--third-color);
   min-height: 38px;
   padding-bottom: 54px;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
 }
 .customization-btn {
   display: inline-block;
@@ -58,6 +44,7 @@
   border: 0;
   padding: 0;
   margin-top: 15px;
+  /* max-width: 20px; */
 }
 .btn-welcome {
   font-family: var(--main-font);
