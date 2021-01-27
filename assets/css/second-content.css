@@ -64,7 +64,7 @@
     padding: 44px 0px 93px;
   }
   .content-second-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     text-align: center;
   }
   .max-width-padding-second-content {

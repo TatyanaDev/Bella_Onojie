@@ -36,7 +36,6 @@
 .decoration-btn {
   display: inline-block;
   background-color: inherit;
-  margin-top: 15px;
   border: 0;
   padding: 0;
 }
@@ -55,6 +54,8 @@
   padding: 18px 31px;
   border-radius: 10px;
   border: 1px solid var(--second-color);
+  display: block;
+  max-width: 145px;
 }
 .btn-download:hover {
   transition-duration: 0.4s;
@@ -70,7 +71,6 @@
 }
 @media screen and (max-width: 768px) {
   .download-content {
-    max-height: 564px;
     background-image: none;
   }
   .header-download {
@@ -84,9 +84,6 @@
     display: block;
     min-height: 76px;
     color: #bdbdbd;
-  }
-  .decoration-btn {
-    margin-bottom: 40px;
   }
   .nowrap {
     white-space: nowrap;

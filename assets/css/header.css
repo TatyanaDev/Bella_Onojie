@@ -11,6 +11,7 @@
   min-height: 16px;
   min-width: 20px;
   border: 0;
+  outline: none;
 }
 @media screen and (max-width: 768px) {
   .content-header {

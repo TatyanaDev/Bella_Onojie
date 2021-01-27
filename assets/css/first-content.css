@@ -1,7 +1,7 @@
 .first-content {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 475px 161px 0px 245px;
+  padding: 0px 161px 0px 245px;
   overflow-x: hidden;
 }
 .header-first-content {
@@ -58,11 +58,6 @@
   color: #737373;
   min-height: 76px;
 }
-@media screen and (max-width: 1200px) {
-  .first-content {
-    padding: 475px 30px 0px;
-  }
-}
 @media screen and (max-width: 768px) {
   .first-content {
     padding: 0px;
@@ -75,7 +70,7 @@
     color: #000000;
     border-top: none;
     border-bottom: 3px solid var(--color-border-first);
-    padding-top: 90px;
+    padding-top: 0px;
   }
   .content-first-section {
     flex-direction: column-reverse;
@@ -97,10 +92,5 @@
   .sub-content-first-section {
     min-height: 152px;
     padding-bottom: 17px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .first-content {
-    padding-top: 116px;
   }
 }
