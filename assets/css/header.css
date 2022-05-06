@@ -1,25 +1,25 @@
 .content-header {
   padding: 26px 47px 27px 90px;
-  min-height: 102px;
 }
+
 .logo-header {
-  max-width: 206px;
-  max-height: 102px;
+  height: 102px;
+  width: 206px;
 }
+
 .btn-header {
-  background: url(../icons/btn.png);
-  min-height: 16px;
-  min-width: 20px;
-  border: 0;
-  outline: none;
+  background: url(./../icons/burger-menu-button.png);
+  height: 16px;
+  width: 20px;
 }
+
 @media screen and (max-width: 768px) {
   .content-header {
     padding: 17px 23px 44px 25px;
-    min-height: 51px;
   }
+
   .logo-header {
-    max-width: 104px;
-    max-height: 52px;
+    width: 104px;
+    height: 51px;
   }
 }

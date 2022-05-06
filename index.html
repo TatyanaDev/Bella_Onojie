@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="shortcut icon"
       href="./assets/icons/favicon.ico"
@@ -22,19 +21,20 @@
       /></a>
       <button class="btn-header"></button>
     </header>
+
     <section>
       <main class="content-welcome background">
-        <a class="link-welcome hidden" href="#">Food app</a>
+        <p class="preview-welcome hidden">Food app</p>
         <h1 class="header-welcome line-clamp line-clamp-5">
           Why stay hungry when you can order form Bella Onojie
         </h1>
         <p class="sub-content-welcome line-clamp line-clamp-3">
           Download the bella onoje's food app now on
         </p>
-        <ul>
+        <ul class="button-wrapper-welcome flex">
           <li class="customization-btn">
             <a
-              class="btn-welcome box-shadow hidden"
+              class="btn-welcome hidden"
               href="https://play.google.com/store"
               target="_blank"
               >Playstore</a
@@ -50,62 +50,65 @@
           </li>
         </ul>
       </main>
-      <img class="img-welcome" src="./assets/img/mobile.png" alt="mobile" />
+      <img class="img-welcome" src="./assets/images/mobile.png" alt="mobile" />
     </section>
+
     <section class="first-content">
       <h2 class="header-first-content hidden">How the app works</h2>
       <div class="content-first-section flex">
         <picture>
           <source
             class="img-section-first-content"
-            srcset="./assets/img/mobile1mobversion.png"
+            srcset="./assets/images/first-mobile-mob-version.png"
             media="(max-width:768px)"
           />
           <img
-            class="img-mobile-version1"
-            src="./assets/img/mobile1.png"
+            class="first-img-mobile-version"
+            src="./assets/images/first-mobile.png"
             alt="content-mobile-version1"
           />
         </picture>
-        <div class="max-width-padding-first-content">
-          <a class="link-first-content hidden" href="#">Create an account</a>
+        <article class="wrapper-first-content">
+          <p class="preview-first-content hidden">Create an account</p>
           <h3 class="sub-header-first-content line-clamp line-clamp-5">
             Create/login to an existing account to get started
           </h3>
           <p class="sub-content-first-section line-clamp line-clamp-4">
             An account is created with your email and a desired password
           </p>
-        </div>
+        </article>
       </div>
     </section>
+
     <section class="second-content">
       <div class="content-second-section flex">
         <picture>
           <source
             class="img-section-second-content"
-            srcset="./assets/img/mobile2mobversion.png"
+            srcset="./assets/images/second-mobile-mob-version.png"
             media="(max-width:1200px)"
           />
           <img
-            class="img-mobile-version2"
-            src="./assets/img/mobile2.png"
+            class="second-img-mobile-version"
+            src="./assets/images/second-mobile.png"
             alt="content-mobile-version2"
           />
         </picture>
-        <div class="max-width-padding-second-content">
-          <a class="link-second-content hidden" href="#">Explore varieties</a>
-          <a class="link-second-content-mobile-version hidden" href="#"
-            >Explore while shopping</a
-          >
+        <article class="wrapper-second-content">
+          <p class="preview-second-content hidden">Explore varieties</p>
+          <p class="preview-second-content-mobile-version hidden">
+            Explore while shopping
+          </p>
           <h4 class="header-second-content line-clamp line-clamp-4">
             Shop for your favorities meal as e dey hot.
           </h4>
           <p class="sub-content-second-section line-clamp line-clamp-3">
             Shop for your favorite meals or drinks and enjoy while doing it.
           </p>
-        </div>
+        </article>
       </div>
     </section>
+
     <section class="download-content background">
       <h5 class="header-download line-clamp line-clamp-3">
         Download the app now.
@@ -116,8 +119,8 @@
       <p class="content-mobile-version">
         Most calendars are designed for teams.
       </p>
-      <ul>
-        <li class="decoration-btn display">
+      <ul class="button-wrapper-download flex">
+        <li class="display">
           <a
             class="btn-download hidden"
             href="https://play.google.com/store"
@@ -125,7 +128,7 @@
             >Playstore</a
           >
         </li>
-        <li class="decoration-btn display">
+        <li class="display">
           <a
             class="btn-download hidden"
             href="https://www.apple.com/app-store/"
@@ -134,50 +137,42 @@
           >
         </li>
       </ul>
-      <ul class="nowrap">
-        <li class="decoration-btn hide">
+      <ul class="button-wrapper-download flex nowrap">
+        <li class="hide">
           <a class="btn-download-mob-version hidden" href="#">Buy now</a>
         </li>
-        <li class="decoration-btn hide">
+        <li class="hide">
           <a class="btn-download-mob-version hidden" href="#">Try for free</a>
         </li>
       </ul>
     </section>
+
     <footer class="content-footer flex">
       <a class="logo-footer" href="#"
         ><img src="./assets/icons/logo-footer.png" alt="logo-footer"
       /></a>
-      <ul class="nav-icon flex">
+      <ul class="icon-wrapper flex">
         <li>
           <a href="https://twitter.com/" target="_blank"
-            ><img
-              class="size"
-              src="./assets/icons/icon-twitter.png"
-              alt="icon-twitter"
+            ><img class="icon" src="./assets/icons/twitter.png" alt="twitter"
           /></a>
         </li>
         <li>
           <a href="https://www.facebook.com/" target="_blank"
-            ><img
-              class="size"
-              src="./assets/icons/icon-facebook.png"
-              alt="icon-facebook"
+            ><img class="icon" src="./assets/icons/facebook.png" alt="facebook"
           /></a>
         </li>
         <li class="icon-desktop-version">
           <a href="https://www.instagram.com/" target="_blank"
             ><img
-              class="size"
-              src="./assets/icons/icon-instagram.png"
-              alt="icon-instagram"
+              class="icon"
+              src="./assets/icons/instagram.png"
+              alt="instagram"
           /></a>
         </li>
         <li class="icon-mob-version">
           <a href="https://ru.linkedin.com/" target="_blank"
-            ><img
-              class="size"
-              src="./assets/icons/icon-linkedin.png"
-              alt="icon-linkedin"
+            ><img class="icon" src="./assets/icons/linkedin.png" alt="linkedin"
           /></a>
         </li>
       </ul>

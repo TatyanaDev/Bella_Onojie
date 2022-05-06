@@ -1,0 +1,23 @@
+@import "./reset.css";
+@import "./helpers.css";
+@import "./fonts.css";
+@import "./header.css";
+@import "./welcome.css";
+@import "./first-content.css";
+@import "./second-content.css";
+@import "./download.css";
+@import "./footer.css";
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "montserrat";
+  --font-weight: 700;
+  --first-color: #f84a0c;
+  --second-color: #ffffff;
+  --third-color: #f7f7f7;
+  --fourth-color: #737373;
+  --first-border-color: #e4e4e4;
+}

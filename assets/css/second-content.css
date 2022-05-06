@@ -1,87 +1,94 @@
 .second-content {
-  max-width: 1440px;
-  margin: 0 auto;
   padding-left: 254px;
   overflow-x: hidden;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+
 .content-second-section {
   flex-direction: row-reverse;
 }
-.max-width-padding-second-content {
+
+.wrapper-second-content {
   max-width: 480px;
 }
-.link-second-content,
-.link-second-content-mobile-version {
-  font-family: var(--main-font);
+
+.preview-second-content,
+.preview-second-content-mobile-version {
   font-weight: var(--font-weight);
-  font-size: 24px;
-  line-height: 36px;
+  font-family: var(--main-font);
   letter-spacing: 0.1px;
-  text-decoration: none;
+  margin-bottom: 17px;
+  line-height: 36px;
   color: #fa4a0c;
-  min-height: 36px;
+  font-size: 24px;
 }
-.link-second-content-mobile-version {
+
+.preview-second-content-mobile-version {
   display: none;
 }
+
 .header-second-content {
-  font-family: var(--main-font);
   font-weight: var(--font-weight);
-  font-size: 40px;
-  line-height: 57px;
+  font-family: var(--main-font);
   letter-spacing: 0.2px;
+  margin-bottom: 27px;
+  line-height: 57px;
   color: #252b42;
-  padding-top: 17px;
-  padding-bottom: 27px;
-  min-height: 114px;
+  font-size: 40px;
 }
+
 .sub-content-second-section {
   font-family: var(--main-font);
+  letter-spacing: 0.2px;
+  line-height: 38px;
+  color: #737373;
   font-weight: 500;
   font-size: 24px;
-  line-height: 38px;
-  letter-spacing: 0.2px;
-  color: #737373;
-  min-height: 76px;
 }
+
 .img-section-second-content {
   min-height: 807px;
   max-height: 807px;
   max-width: 501px;
 }
+
 @media screen and (max-width: 1200px) {
   .second-content {
     padding-left: 30px;
   }
-  .img-mobile-version2 {
+
+  .second-img-mobile-version {
     min-height: 581px;
     max-height: 581px;
     max-width: 414px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .second-content {
     padding: 44px 0px 93px;
   }
+
   .content-second-section {
     flex-direction: column-reverse;
     text-align: center;
   }
-  .max-width-padding-second-content {
+
+  .wrapper-second-content {
     padding: 0px 43.5px;
   }
-  .link-second-content {
+
+  .preview-second-content {
     display: none;
   }
-  .link-second-content-mobile-version {
+
+  .preview-second-content-mobile-version {
+    margin-bottom: 40px;
     display: block;
   }
+
   .header-second-content {
-    min-height: 171px;
-    padding-top: 40px;
-    padding-bottom: 50px;
-  }
-  .sub-content-second-section {
-    min-height: 152px;
+    margin-bottom: 50px;
   }
 }
